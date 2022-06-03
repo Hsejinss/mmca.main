@@ -1,0 +1,344 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- FONT -->
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@100;300;400;500;700;900&display=swap" rel="stylesheet">
+    <!-- CSS -->
+    <link rel="stylesheet" href="./css/reset.css">
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css"/>
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" /> 
+    <!-- JS -->
+    <script src="./js/jquery-1.12.4.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.7.1/gsap.min.js"></script>
+    <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script> 
+    <script src="./js/script.js"></script>
+    <title>국립현대미술관</title>
+</head>
+<body>
+    <div id="wrap">
+
+        <!-- header 영역 -->
+        <section class="banner section">
+            <div class="banner-container">
+                <header class="header-area">
+                    <div class="header-logo">
+                        <img src="./img/bg_logo_full.svg" alt="">
+                    </div>
+
+                    <!-- menu 영역 -->
+                    <nav>
+                        <ul class="menu">
+                            <li>
+                               <a href="#none">전시</a>
+                            </li>
+                            <li>
+                               <a href="#none">소장품</a>
+                            </li>
+                            <li>
+                               <a href="#none">프로그램</a>
+                            </li>
+                            <li> 
+                               <a href="#none">공간</a>
+                            </li>
+                            <li>
+                               <a href="#none">작가</a>
+                            </li>
+                            <li>
+                               <a href="#none">맴버스</a>
+                            </li>
+                        </ul> 
+
+                        <!-- icon box 영역 -->
+                        <ul class="icon-box">
+                            <li>
+                                <a href="#none">
+                                    <img src="./img/search icon.svg" alt="">
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#none">
+                                    <img src="./img/profile icon.svg" alt="">
+                                </a>
+                            </li>
+                        </ul>
+                    </nav>
+
+                    <!-- 모바일버전에서만 보이는 햄버거버튼 -->
+                    <a href="#none" class="hamburger">
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                    </a>
+                </header>
+
+                <!-- 베너영역 -->
+                <div class="banner-wrap">
+                    <div class="banner-img-box"></div>
+                    <canvas id="kv_masking"></canvas>
+                    <div class="banner-txt-box">
+                        <p>도시와 역사와 동시대미술이 호흡하는 열린미술관</p>
+                        <h1>국립현대미술관</h1>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- sec-1영역 -->
+        <section class="sec-1">
+            <div class="container">
+
+                <div class="section-head-box">
+                    <h1 class="section-head">
+                        전시
+                    </h1>
+                </div>
+                <p class="section-sub">
+                    고품격 소장품을 바탕으로 한 고미술, 현대미술 소장품 전시와 수준 높은 기획전시를 소개합니다.
+                </p>
+
+                <!-- 슬라이더영역 -->
+                <div class="mask swiper mySwiper">
+                    <div class="slider swiper-wrapper">
+                        <div class="in-slider fi swiper-slide">
+                            <a href="#none">
+                                <img src="./img/sec-1-img1.jpg" alt="">
+                                <div class="txt-box">
+                                    <p>M1 현대미술</p>
+                                    <a class="more" href="#none">더 알아보기</a>
+                                </div>
+                            </a>
+                        </div>
+                        <div class="in-slider se swiper-slide">
+                            <a href="#none">
+                                <img src="./img/sec-1-img2.jpg" alt="">
+                                <div class="txt-box">
+                                    <p>M2 고미술</p>
+                                    <a class="more" href="#none">더 알아보기</a>
+                                </div>
+                            </a>
+                        </div>
+                        <div class="in-slider th swiper-slide">
+                            <a href="#none">
+                                <img src="./img/sec-1-img3.jpg" alt="">
+                                <div class="txt-box">
+                                    <p>M3 현대미술</p>
+                                    <a class="more" href="#none">더 알아보기</a>
+                                </div>
+                            </a>
+                        </div>
+                        <div class="in-slider fo swiper-slide">
+                            <a href="#none">
+                                <img src="./img/sec-1-img4.jpg" alt="">
+                                <div class="txt-box">
+                                    <p>M4 설치미술</p>
+                                    <a class="more" href="#none">더 알아보기</a>
+                                </div>
+                            </a>
+                        </div>
+                    </div> 
+                    
+                    <!-- 슬라이드 버튼 영역 -->
+                    <div class="slider-content-box">
+                        <ul class="arrow-btn">
+                            <li class="swiper-button-next"></li>
+                            <li class="swiper-button-prev"></li>        
+                        </ul>
+                    </div>
+                </div>
+
+            </div>
+        </section>
+
+        <!-- sec-2영역 -->
+        <section class="sec-2">
+            <div class="container">
+
+                <div class="section-head-box">
+                    <h1 class="section-head">
+                        소장품
+                    </h1>
+                </div>
+                <div class="section-sub-box">
+                    <p class="section-sub">
+                        국립현대미술관이 소장한 작품을 만나보세요.
+                    </p>
+                    <div class="arrow-r"></div>
+                </div>
+
+                <div class="sec-2-content-wrap">
+                    <div class="content-box" data-aos="fade-down" data-aos-easing="linear" data-aos-duration="500" data-aos-offset="300">
+                        <img src="./img/곽인식_작품86MK_detail1_thumbnail.jpg" alt="">
+
+                        <div class="txt-box">
+                            <h2>작품 86,M.K</h2>
+                            <p>곽인식 1986</p>
+                        </div>
+                    </div>
+
+                    <div class="content-box" data-aos="fade-down" data-aos-easing="linear" data-aos-duration="700">
+                        <img src="./img/권영우_무제_detail1.jpg" alt="">
+                        <div class="txt-box">
+                            <h2>무제</h2>
+                            <p>권영우 1984</p>
+                        </div>
+                    </div>
+
+                    <div class="content-box" data-aos="fade-down" data-aos-easing="linear" data-aos-duration="900">
+                        <img src="./img/sec-2-img2.jpg" alt="">
+                        <div class="txt-box">
+                            <h2>상상</h2>
+                            <p>차명희 2005</p>
+                        </div>
+                    </div>
+
+                    <div class="content-box" data-aos="fade-down" data-aos-easing="linear" data-aos-duration="1200">
+                        <img src="./img/sec-2-img3.jpg" alt="">
+                        <div class="txt-box">
+                            <h2>두그루</h2>
+                            <p>김윤기 2011</p>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </section>
+
+        <!-- sec-3 영역 -->
+        <section class="sec-3">
+            <div class="container">
+
+                <div class="sec-3-left">
+                    <div class="section-head-box">
+                        <h1 class="section-head">
+                            프로그램
+                        </h1>
+                    </div>
+                    <div class="sec3-content-txt">
+                        <span>보다 깊이 있는 미술관 경험을 위한 다양한 프로그램을 소개합니다.</span> 
+                        <p>
+                            국립현대미술관은 한국 고유의 미를 담고 있는 전통미술과 생동하는
+                            현대미술, 시대적 가치를 반영한 국제미술이 함께 공존하는 세계를 향한
+                            열린 미술관으로 유아부터 성인에 이르기까지 다양한 문화적 배경의
+                            참여자가 함께하는 교육프로그램은 관람객 스스로 의미 있는 학습을 통해
+                            현대미술을 경험하고 예술로 사회와 소통하는 교육, 누구나 참여하고
+                            누릴 수 있는 모두를 위한 열린 미술관을 지향합니다.
+                        </p>
+                    </div>
+                </div>
+                <div class="sec-3-right" data-aos="fade-left" data-aos-easing="linear" data-aos-duration="600">
+                    <img src="./img/sec-3-img3.jpg" alt="">
+                </div>
+            </div>
+        </section>
+
+        <!-- sec-4 영역 -->
+        <section class="sec-4">
+            <div class="container">
+
+                <div class="section-head-box">
+                    <h1 class="section-head">
+                        작가
+                    </h1>
+                </div>
+                <div class="section-sub-box">
+                    <p class="section-sub">
+                        관람객과 예술 작품이 교감하는 국립현대미술관의 소장 작가와 전시 참여작가를 소개합니다.                    
+                    </p>
+                </div>
+
+                <div class="artist-wrap">
+                    <div class="artist-box" data-aos="fade-down" data-aos-easing="linear" data-aos-duration="600">
+                        <img src="./img/mmca-artist-박진아.png" alt="">
+                        <p>박진아</p>
+                    </div>
+                    <div class="artist-box" data-aos="fade-down" data-aos-easing="linear" data-aos-duration="600">
+                        <img src="./img/mmca-artist-한경우.png" alt="">
+                        <p>한경우</p>
+                    </div>
+                    <div class="artist-box" data-aos="fade-down" data-aos-easing="linear" data-aos-duration="600">
+                        <img src="./img/mmca-artist-김성환.png" alt="">
+                        <p>김성환</p>
+                    </div>
+                    <div class="artist-box" data-aos="fade-down" data-aos-easing="linear" data-aos-duration="600">
+                        <img src="./img/mmca-artist-정연두.png" alt="">
+                        <p>정연두</p>
+                    </div>
+                    <div class="artist-box" data-aos="fade-down" data-aos-easing="linear" data-aos-duration="600">
+                        <img src="./img/mmca-artist-김수자.png" alt="">
+                        <p>김수자</p>
+                    </div>
+                    <div class="artist-box" data-aos="fade-down" data-aos-easing="linear" data-aos-duration="600">
+                        <img src="./img/mmca-artist-신학철.png" alt="">
+                        <p>신학철</p>
+                    </div>
+                    <div class="artist-box" data-aos="fade-down" data-aos-easing="linear" data-aos-duration="600">
+                        <img src="./img/mmca-artist-이은실.png" alt="">
+                        <p>이은실</p>
+                    </div>
+                    <div class="artist-box" data-aos="fade-down" data-aos-easing="linear" data-aos-duration="600">
+                        <img src="./img/mmca-artist-안규철.png" alt="">
+                        <p>안규철</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+
+        <!-- 푸터영역 -->
+        <section class="footer">
+            <div class="f-container">
+                <div class="footer-left">
+                    <div class="box inner-txt1">
+                        <p>
+                            <a href="#none">국립현대미술관</a>
+                        </p>
+                        <p>
+                            <a href="#none">서울 종로구 삼청로 30(소격동)</a>
+                        </p>
+                        <p>
+                            <a href="#none">TEL: 02-3701-9500</a>
+                        </p>
+                    </div>
+                </div>
+
+                <div class="footer-right">
+                    <div class="footer-t">
+                        <div class="box inner-txt1">
+                            <p><a class="f-border" href="#none">맴버십안내</a></p>
+                            <p><a href="#none">관람안내</a></p>
+                            <p><a href="#none">공지사항</a></p>
+                            <p><a href="#none">FAQ</a></p>
+                        </div>
+
+                        <div class="box inner-txt2">
+                            <p><a class="f-border" href="#none">Instagram</a></p>
+                            <p><a href="#none">YouTube</a></p>
+                            <p><a href="#none">Facebook</a></p>                    
+                        </div>
+
+                        <div class="box inner-txt3">
+                            <p><a class="f-border" href="#none">예약•예매</a></p>
+                            <p><a href="#none">스토어</a></p>
+                        </div>
+                    </div>
+
+
+                    <div class="footer-b">
+                        <p class="txt-bottom">
+                            ⓒMMCA Museum of Art. All Rights reserved.
+                        </p>
+                    </div>
+    
+                </div>
+
+            </div>
+        </section>
+
+    </div> <!--wrap end-->
+</body>
+</html>
