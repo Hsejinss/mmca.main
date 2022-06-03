@@ -879,7 +879,7 @@ nav{
     .sec-1 .section-sub,
     .sec-2 .section-sub,
     .sec-4 .section-sub{
-        font-size: 1rem;
+        font-size: 0.2rem;
     }
 
     .sec-1 .in-slider a{
@@ -900,10 +900,6 @@ nav{
         margin-top: 10px;
         font-size: 1rem;
     }
-
-
-
-
 
 
     /* 푸터영역 */
