@@ -1,5 +1,4 @@
 @charset "utf-8";
-/* comment: 헤더 패딩 수정 */
 /* .container{
     height: 100vh;
 } */
@@ -879,7 +878,7 @@ nav{
     .sec-1 .section-sub,
     .sec-2 .section-sub,
     .sec-4 .section-sub{
-        font-size: 0.75rem;
+        font-size: 1rem;
     }
 
     .sec-1 .in-slider a{
@@ -898,7 +897,7 @@ nav{
     }
     .sec-3 .sec-3-left p{
         margin-top: 10px;
-        font-size: 0.75rem;
+        font-size: 1rem;
     }
 
 
