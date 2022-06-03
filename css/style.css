@@ -700,16 +700,17 @@ nav{
     .sec-4 .section-sub{
         font-size: 1.1rem;
     }
+
     .sec-1 .in-slider a{
         font-size: 0.75rem;
         font-weight: 400;
     }
 
     /* sec-2 영역 */
-    .sec-2 .arrow-r{
-        width: 160px;
-        height: 35px;
+    .section-sub-box .arrow-r{
+        display: none;
     }
+    
     /* sec-3 영역 */
     .sec-3 .sec-3-left p{
         margin-top: 8px;
@@ -743,7 +744,6 @@ nav{
     .sec-2 .sec-2-content-wrap .content-box{
         width: 100%;
     }
-
     /* sec-3 영역 */
     .sec-3 .container{
         display: flex;
@@ -842,6 +842,8 @@ nav{
     }
 }
 @media (max-width:600px){
+    /* 텍스트 공통영역 */
+
     /* 배너영역 */
     .banner-wrap .banner-txt-box{
         position: absolute;
@@ -866,6 +868,39 @@ nav{
     .banner-txt-box h1{
         font-size: 2.5rem;
     }
+
+
+
+    /* sec-1영역 */
+    .sec-1 .section-sub,
+    .sec-2 .section-sub,
+    .sec-4 .section-sub{
+        font-size: 1rem;
+    }
+
+    .sec-1 .in-slider a{
+        font-size: 0.75rem;
+        font-weight: 400;
+    }
+
+    /* sec-2 영역 */
+    .section-sub-box .arrow-r{
+        display: none;
+    }
+    
+    /* sec-3 영역 */
+    .sec-3 .sec-3-left span{
+        font-size: 1.2rem;
+    }
+    .sec-3 .sec-3-left p{
+        margin-top: 10px;
+        font-size: 1rem;
+    }
+
+
+
+
+
 
     /* 푸터영역 */
     .f-container{
