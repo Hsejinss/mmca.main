@@ -715,7 +715,7 @@ nav{
     /* sec-3 영역 */
     .sec-3 .sec-3-left p{
         margin-top: 8px;
-        font-size: 1.1rem;
+        font-size: 1rem;
     }
 
     /* 푸터영역 */
@@ -726,6 +726,9 @@ nav{
 }
 
 @media (max-width:760px){
+    .header-area{
+        padding: 40px 30px;
+    }
     .container{
         width: 85.526vw;
     }
