@@ -1,7 +1,4 @@
 @charset "utf-8";
-/* .container{
-    height: 100vh;
-} */
 #wrap{
     overflow: hidden;
 }
@@ -914,7 +911,7 @@ nav{
     .f-container{
         display: flex;
         flex-direction: column;
-        padding: 40px 20px;
+        padding: 25px 20px;
     }
     .footer-t{
         margin-right: -20px;
@@ -946,14 +943,22 @@ nav{
         margin-left: 15px;
     }
 
+    .footer-left{
+        margin-bottom: 20px;
+    }
     .footer .inner-txt1 .footer-menu,
     .footer .inner-txt2 .footer-menu,
     .footer .inner-txt3 .footer-menu{
         display: inline-block;
     }
     .footer-b{
-        padding-top: 80px;
+        padding-top: 60px;
         font-size: 0.9rem;
     }
+
+
+
+
+
 }
 
