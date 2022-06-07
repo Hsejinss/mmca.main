@@ -12,7 +12,6 @@
     display: none;
 }
 .header-area{
-    /* height: 120px; */
     width: 100%;
     display: flex;
     padding: 35px 240px;
@@ -21,7 +20,7 @@
     position: fixed;
     z-index: 999;
     background-color: #fff;
-    transition: 0.3s;
+    transition: 0.5s;
 
 }
 
@@ -33,7 +32,7 @@
 
 .header-area.active{
     background-color: #fff;
-    height: 75px;
+    height: 80px;
     opacity: 0.9;
 }
 
@@ -699,7 +698,7 @@ nav{
     .sec-1 .section-sub,
     .sec-2 .section-sub,
     .sec-4 .section-sub{
-        font-size: 1.5rem;
+        font-size: 1.125rem;
     }
 
     .sec-1 .in-slider a{
@@ -827,7 +826,7 @@ nav{
     }
     .footer-right .footer-t .box{
         width: 100%;
-        margin-bottom: 25px;
+        margin-bottom: 15px;
         display: flex;
         align-items: center;
         padding: 5px 0;
@@ -913,7 +912,7 @@ nav{
     .f-container{
         display: flex;
         flex-direction: column;
-        padding: 50px 20px;
+        padding: 40px 20px;
     }
     .footer-t{
         margin-right: -20px;
@@ -956,3 +955,4 @@ nav{
     }
 
 }
+
