@@ -1,4 +1,5 @@
 @charset "utf-8";
+/* comment: 헤더 패딩 수정 */
 /* .container{
     height: 100vh;
 } */
@@ -32,7 +33,7 @@
 
 .header-area.active{
     background-color: #fff;
-    height: 80px;
+    height: 75px;
     opacity: 0.9;
 }
 
@@ -393,7 +394,7 @@ nav{
 }
 
 /* 반응형작업 laptop: 1600px */
-@media (max-width:1600px ){
+@media (max-width:1600px){
     .container{
         width: 1200px;
         margin: 0 auto;
@@ -727,6 +728,7 @@ nav{
 @media (max-width:760px){
     .header-area{
         padding: 40px 30px;
+        height: 90px;
     }
     .container{
         width: 85.526vw;
@@ -747,6 +749,7 @@ nav{
     .sec-2 .sec-2-content-wrap .content-box{
         width: 100%;
     }
+
     /* sec-3 영역 */
     .sec-3 .container{
         display: flex;
@@ -846,6 +849,9 @@ nav{
 }
 @media (max-width:600px){
 
+    .container{
+        margin-top: 120px;
+    }
     /* 배너영역 */
     .banner-wrap .banner-txt-box{
         position: absolute;
@@ -889,7 +895,7 @@ nav{
     .section-sub-box .arrow-r{
         display: none;
     }
-    
+
     /* sec-3 영역 */
     .sec-3 .sec-3-left span{
         font-size: 1.2rem;
@@ -897,6 +903,9 @@ nav{
     .sec-3 .sec-3-left p{
         margin-top: 10px;
         font-size: 1rem;
+    }
+    .sec-3 .container {
+        margin-top: 60px;
     }
 
 
@@ -942,8 +951,8 @@ nav{
         display: inline-block;
     }
     .footer-b{
-        padding-top: 150px;
+        padding-top: 80px;
         font-size: 0.9rem;
     }
-}
 
+}
