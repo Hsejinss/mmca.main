@@ -1,5 +1,4 @@
 @charset "utf-8";
-/* comment: 헤더 패딩 수정 */
 /* .container{
     height: 100vh;
 } */
@@ -932,7 +931,7 @@ nav{
     }
     .footer .box a{
         color: #888;
-        font-size: 1rem;
+        font-size: 0.9rem;
         font-weight: 500;
         margin-left: 15px;
     }
@@ -944,6 +943,7 @@ nav{
     }
     .footer-b{
         padding-top: 150px;
+        font-size: 0.9rem;
     }
 }
 
